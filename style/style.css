@@ -1211,9 +1211,19 @@ footer {
     width: 280px;
   }
   footer {
-    margin-top: 40px;
-    height: 204px;
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .logo {
     margin-left: 100px;
@@ -1221,17 +1231,17 @@ footer {
   }
   .menu {
     margin-top: 13px;
-    margin-left: 25px;
+    margin-left: 80px;
   }
   .frst {
     margin-right: 10px;
   }
   .menu span {
     padding-top: 0;
-    margin-left: 100px;
+    margin-left: 130px;
   }
   .menu ul {
-    margin-left: 40px;
+    margin-left: 75px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1243,10 +1253,10 @@ footer {
   }
   .part {
     margin-top: 6px;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .picturo_to_logo {
-    margin-left: 107px;
+    margin-left: 0px;
     margin-top: 8px;
   }
   .te {
